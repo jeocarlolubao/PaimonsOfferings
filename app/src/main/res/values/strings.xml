@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Paimon`s Offerings</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <!--    <string name="hello_blank_fragment">Hello blank fragment</string>-->
+
+    <string-array name="SiomaiBundles">
+        <item>Select Bundle</item>
+        <item>4pcs for 9.00</item>
+        <item>8pcs for 15.00</item>
+        <item>12pcs for 25.00</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

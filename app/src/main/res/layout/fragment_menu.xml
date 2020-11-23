@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/menu_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MenuFragment">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF">
+
+        <com.shawnlin.numberpicker.NumberPicker
+            android:id="@+id/number_picker_siomaiCount"
+            android:layout_width="75dp"
+            android:layout_height="60dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="186dp"
+            android:layout_marginEnd="184dp"
+            android:layout_marginRight="184dp"
+            android:layout_marginBottom="357dp"
+            android:orientation="horizontal"
+            app:np_dividerColor="@color/teal_200"
+            app:np_dividerDistance="30dp"
+            app:np_dividerLength="20dp"
+            app:np_height="125dp"
+            app:np_max="50"
+            app:np_min="0"
+            app:np_orientation="horizontal"
+            app:np_selectedTextColor="@color/teal_200"
+            app:np_selectedTextSize="20dp"
+            app:np_textColor="@color/black"
+            app:np_textSize="15dp"
+            app:np_value="3"
+            app:np_width="150dp"
+            app:np_wrapSelectorWheel="true">
+
+        </com.shawnlin.numberpicker.NumberPicker>
+
+        <com.shawnlin.numberpicker.NumberPicker
+            android:id="@+id/number_picker_chickenCount"
+            android:layout_width="77dp"
+            android:layout_height="53dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="466dp"
+            android:layout_marginEnd="177dp"
+            android:layout_marginRight="177dp"
+            android:layout_marginBottom="84dp"
+            android:orientation="horizontal"
+            app:np_dividerColor="@color/teal_200"
+            app:np_dividerDistance="30dp"
+            app:np_dividerLength="20dp"
+            app:np_height="125dp"
+            app:np_max="50"
+            app:np_min="0"
+            app:np_orientation="horizontal"
+            app:np_selectedTextColor="@color/teal_200"
+            app:np_selectedTextSize="20dp"
+            app:np_textColor="@color/black"
+            app:np_textSize="15dp"
+            app:np_value="3"
+            app:np_width="150dp"
+            app:np_wrapSelectorWheel="true">
+
+        </com.shawnlin.numberpicker.NumberPicker>
+
+        <com.shawnlin.numberpicker.NumberPicker
+            android:id="@+id/number_picker_sabawCount"
+            android:layout_width="77dp"
+            android:layout_height="53dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="395dp"
+            android:layout_marginEnd="179dp"
+            android:layout_marginRight="179dp"
+            android:layout_marginBottom="155dp"
+            android:orientation="horizontal"
+            app:np_dividerColor="@color/teal_200"
+            app:np_dividerDistance="30dp"
+            app:np_dividerLength="20dp"
+            app:np_height="125dp"
+            app:np_max="50"
+            app:np_min="0"
+            app:np_orientation="horizontal"
+            app:np_selectedTextColor="@color/teal_200"
+            app:np_selectedTextSize="20dp"
+            app:np_textColor="@color/black"
+            app:np_textSize="15dp"
+            app:np_value="3"
+            app:np_width="150dp"
+            app:np_wrapSelectorWheel="true">
+
+        </com.shawnlin.numberpicker.NumberPicker>
+
+        <com.shawnlin.numberpicker.NumberPicker
+            android:id="@+id/number_picker_eggCount"
+            android:layout_width="77dp"
+            android:layout_height="53dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="321dp"
+            android:layout_marginEnd="181dp"
+            android:layout_marginRight="181dp"
+            android:layout_marginBottom="229dp"
+            android:orientation="horizontal"
+            app:np_dividerColor="@color/teal_200"
+            app:np_dividerDistance="30dp"
+            app:np_dividerLength="20dp"
+            app:np_height="125dp"
+            app:np_max="50"
+            app:np_min="0"
+            app:np_orientation="horizontal"
+            app:np_selectedTextColor="@color/teal_200"
+            app:np_selectedTextSize="20dp"
+            app:np_textColor="@color/black"
+            app:np_textSize="15dp"
+            app:np_value="3"
+            app:np_width="150dp"
+            app:np_wrapSelectorWheel="true">
+
+        </com.shawnlin.numberpicker.NumberPicker>
+
+        <com.shawnlin.numberpicker.NumberPicker
+            android:id="@+id/number_picker_isawCount"
+            android:layout_width="77dp"
+            android:layout_height="53dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="258dp"
+            android:layout_marginEnd="183dp"
+            android:layout_marginRight="183dp"
+            android:layout_marginBottom="292dp"
+            android:orientation="horizontal"
+            app:np_dividerColor="@color/teal_200"
+            app:np_dividerDistance="30dp"
+            app:np_dividerLength="20dp"
+            app:np_height="125dp"
+            app:np_max="50"
+            app:np_min="0"
+            app:np_orientation="horizontal"
+            app:np_selectedTextColor="@color/teal_200"
+            app:np_selectedTextSize="20dp"
+            app:np_textColor="@color/black"
+            app:np_textSize="15dp"
+            app:np_value="3"
+            app:np_width="150dp"
+            app:np_wrapSelectorWheel="true">
+
+        </com.shawnlin.numberpicker.NumberPicker>
+
+        <Button
+            android:id="@+id/button_OrderNow"
+            android:layout_width="203dp"
+            android:layout_height="57dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="525dp"
+            android:layout_marginEnd="14dp"
+            android:layout_marginRight="14dp"
+            android:layout_marginBottom="21dp"
+            android:text="Review Order" />
+
+        <CheckBox
+            android:id="@+id/checkBox_siomai"
+            android:layout_width="124dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="13dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="193dp"
+            android:layout_marginEnd="274dp"
+            android:layout_marginRight="274dp"
+            android:layout_marginBottom="354dp"
+            android:text="Jade Siomai Bundle" />
+
+        <ImageView
+            android:id="@+id/Image_PaimonsOfferings"
+            android:layout_width="225dp"
+            android:layout_height="178dp"
+            android:layout_marginStart="91dp"
+            android:layout_marginLeft="91dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="94dp"
+            android:layout_marginRight="94dp"
+            android:layout_marginBottom="419dp"
+            android:src="@drawable/paimonsofferings" />
+
+        <CheckBox
+            android:id="@+id/checkBox_isaw"
+            android:layout_width="121dp"
+            android:layout_height="48dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="13dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="258dp"
+            android:layout_marginEnd="277dp"
+            android:layout_marginRight="277dp"
+            android:layout_marginBottom="297dp"
+            android:text="Liyue's Isaw" />
+
+        <TextView
+            android:id="@+id/textView_IsawPrice"
+            android:layout_width="117dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="38dp"
+            android:layout_marginRight="38dp"
+            android:layout_marginBottom="310dp"
+            android:text="5.00/Stick"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/checkBox_egg"
+            android:layout_width="125dp"
+            android:layout_height="43dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="327dp"
+            android:layout_marginEnd="274dp"
+            android:layout_marginRight="274dp"
+            android:layout_marginBottom="233dp"
+            android:text="Klee's Revival Egg" />
+
+        <TextView
+            android:id="@+id/textView_EggPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="29dp"
+            android:layout_marginRight="29dp"
+            android:layout_marginBottom="241dp"
+            android:text="15.00/Serving"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView_SabawPrice"
+            android:layout_width="142dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginBottom="168dp"
+            android:text="25.00/Serving"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/checkBox_sabaw"
+            android:layout_width="wrap_content"
+            android:layout_height="67dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="391dp"
+            android:layout_marginEnd="276dp"
+            android:layout_marginRight="276dp"
+            android:layout_marginBottom="145dp"
+            android:text="Tinolang Sabaw ni Diluc" />
+
+        <CheckBox
+            android:id="@+id/checkBox_chicken"
+            android:layout_width="142dp"
+            android:layout_height="43dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="475dp"
+            android:layout_marginEnd="257dp"
+            android:layout_marginRight="257dp"
+            android:layout_marginBottom="86dp"
+            android:text="Mondstadt's Roasted Chicken" />
+
+        <TextView
+            android:id="@+id/textView_ChickenPrice"
+            android:layout_width="148dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="95dp"
+            android:text="40.00/Serving"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/spinner_BundleSpinner"
+            android:layout_width="165dp"
+            android:layout_height="44dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="195dp"
+            android:layout_marginEnd="11dp"
+            android:layout_marginRight="11dp" />
+
+    </RelativeLayout>
+</FrameLayout>
