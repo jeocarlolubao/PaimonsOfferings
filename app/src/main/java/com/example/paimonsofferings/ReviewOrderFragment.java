@@ -140,8 +140,7 @@ public class ReviewOrderFragment extends Fragment {
         ChangeOrder.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                MenuFragment menuFragment = new MenuFragment();
-                getFragmentManager().beginTransaction().add(R.id.fragmentBox, menuFragment).commit();
+                openChangeOrderDialog();
             }
         });
 
@@ -176,4 +175,10 @@ public class ReviewOrderFragment extends Fragment {
 
         getFragmentManager().beginTransaction().add(R.id.fragmentBox, fragment2).commit();
     }
+
+    private void openChangeOrderDialog() {
+        ChangeOrderDialog changeOrderDialog = new ChangeOrderDialog();
+        changeOrderDialog.show(getFragmentManager(), "change order dialog");
+    }
 }
+

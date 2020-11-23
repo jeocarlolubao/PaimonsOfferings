@@ -354,6 +354,7 @@
         android:ems="10"
         android:hint="Enter Payment Here"
         android:inputType="numberDecimal|numberSigned"
+        android:digits="0123456789."
         android:numeric="decimal" />
 
     <TextView

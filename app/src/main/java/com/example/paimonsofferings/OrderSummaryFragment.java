@@ -134,7 +134,7 @@ public class OrderSummaryFragment extends Fragment {
                 double change = 0;
 
                 if (!Payment_VALUE.getText().toString().equalsIgnoreCase("")) {
-                    customerpayment = Double.parseDouble(Payment_VALUE.getText().toString().trim());
+                        customerpayment = Double.parseDouble(Payment_VALUE.getText().toString().trim());
                     change = customerpayment - Double.parseDouble(OVERALL_TOTAL);
                     changeVALUE.setText(FormatNumber(Double.valueOf(String.valueOf(change))));
                 }
@@ -160,7 +160,7 @@ public class OrderSummaryFragment extends Fragment {
 
 
                 if (Payment_VALUE.getText().toString().trim().isEmpty()) {
-                    Toast toast = Toast.makeText(getActivity(), "Invalid Input", Toast.LENGTH_SHORT);
+                    Toast toast = Toast.makeText(getActivity(), "Please enter your payment", Toast.LENGTH_SHORT);
                     toast.show();
                 } else {
                     if (Double.parseDouble(OVERALL_TOTAL) > Double.parseDouble(Payment_VALUE.getText().toString())) {
@@ -168,9 +168,6 @@ public class OrderSummaryFragment extends Fragment {
                         Toast toast = Toast.makeText(getActivity(), "Insufficient Funds", Toast.LENGTH_SHORT);
                         toast.show();
 
-                    } else if (Payment_VALUE.getText().toString().trim().isEmpty()) {
-                        Toast toast = Toast.makeText(getActivity(), "Please enter your payment", Toast.LENGTH_SHORT);
-                        toast.show();
                     } else {
                         ThankYouFragment thankYouFragment = new ThankYouFragment();
                         getFragmentManager().beginTransaction().add(R.id.fragmentBox, thankYouFragment).commit();
